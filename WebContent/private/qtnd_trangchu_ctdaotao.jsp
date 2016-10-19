@@ -174,15 +174,15 @@
                           </li>
                           <li>
                           <legend>Thông tin:</legend>
-                               <form class="form-horizontal" action="" method="POST" role="form">
-                                  <div">
+                               <form  action="" method="POST" role="form">
+                                  <div class="form-horizontal">
                                       <label class="fieldinput col-sm-2 control-label">Tiêu đề
                                       <sup style="color: rgb(255, 0, 0);">*</sup></label>
                                       <div class="col-sm-10">
                                       <input type="text"  class="form-control" id="" size="80" value="" placeholder="Tiêu đề" required="" autofocus="">
                                       </div>
                                   </div><br>
-                                  <div >
+                                  <div class="form-horizontal" >
                                       <label class="fieldinput col-sm-2 control-label">Mô tả
                                       <sup style="color: rgb(255, 0, 0);">*</sup>
                                       </label>
@@ -190,7 +190,7 @@
                                       <input type="text"  class="form-control"  id="" size="80" value="" placeholder="Mô tả" required>
                                       </div>
                                   </div><br><br>
-                                  <div>
+                                  <div class="form-horizontal">
                                       <label class="fieldinput col-sm-2 control-label">Nội dung
                                       <sup style="color: rgb(255, 0, 0);">*</sup>
                                       </label>

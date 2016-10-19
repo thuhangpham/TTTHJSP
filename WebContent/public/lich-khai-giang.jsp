@@ -59,7 +59,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
+        <nav class="navbar navbar-inverse  role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -141,7 +141,7 @@
              								    <td>Thứ 2-4-6 (7:00-11:00)</td>
              								    <td>A1</td>
                                                 <td>1/9/2016</td>
-                                                <td><button type="button" class="btn btn-primary btn-sm">Đăng ký</button></td>
+                                                <td><a type="button" class="btn btn-primary btn-sm" href="dang-ky-khoa-hoc.jsp">Đăng ký</a></td>
                                               </tr>
                                               <tr>
                                                 <td>WIN1609E2</td>

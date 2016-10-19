@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Liên hệ | TTTH</title>
+    <title>Đăng ký khóa học | TTTH</title>
 
     <!-- core CSS -->
 
@@ -30,15 +30,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<c:url value="../assets/images/ico/apple-touch-icon-72-precomposed.png"/>"/>
     <link rel="apple-touch-icon-precomposed" href="<c:url value="../assets/images/ico/apple-touch-icon-57-precomposed.png"/>"/>
 </head>
-
 <body>
-
     <header id="header">
         <div class="top-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  0164 7931 390</p></div>
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
@@ -61,7 +59,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-       <nav class="navbar navbar-inverse  role="banner">
+        <nav class="navbar navbar-inverse  role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -79,7 +77,7 @@
                         <li><a href="../index.jsp">Trang chủ</a>
                         </li>
                         <li><a href="gioi-thieu.jsp">Giới thiệu</a>
-                        <li><a href="lich-khai-giang.jsp">Lịch khai giảng</a>
+                        <li class="active"><a href="lich-khai-giang.jsp">Lịch khai giảng</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khóa học <i class="fa fa-angle-down"></i></a>
@@ -96,7 +94,7 @@
                         </li>
                         <li><a href="tin-tuc.jsp">Tin tức</a>
                         </li>
-                        <li class="active"><a href="lien-he.jsp">Liên hệ</a>
+                        <li><a href="lien-he.jsp">Liên hệ</a>
                         </li>
                     </ul>
                 </div>
@@ -105,97 +103,55 @@
         </nav>
         <!--/nav-->
 
+        
     </header><!--/header-->
-
-    <section id="contact-info" class="wow fadeInDown">
-        <div class="center">                
-            <h2>LÀM THẾ NÀO ĐỂ LIÊN HỆ CHÚNG TÔI?</h2>
-        </div>
-        <div class="gmap-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5 text-center">
-                        <div class="gmap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4807785324765!2d106.77076931435116!3d10.850990092270942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175270ad28d48ab%3A0xa6c02de0a7c40d6c!2zVHLGsOG7nW5nIMSQSFNQIEvhu7kgVGh14bqtdCBUcC4gSENN!5e0!3m2!1svi!2s!4v1474645144360" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-7 map-content">
-                        <ul class="row">
-                            <li class="col-sm-6">
-                                <address>
-                                    <h5>Cơ sở chính</h5>
-                                    <p>5/14 Hữu Nghị, Bình Thọ, Quận Thủ Đức 
-                                    <p>Phone:0164 7931 390 <br>
-                                    Email Address:chuongnhh@gmail.com</p>
-                                </address>
-
-                                <address>
-                                    <h5>Chi nhánh #1</h5>
-                                    <p>5/14 Hữu Nghị, Bình Thọ, Quận Thủ Đức                               
-                                    <p>Phone:0164 7931 390 <br>
-                                    Email Address:chuongnhh@gmail.com</p>
-                                </address>
-                            </li>
-
-
-                            <li class="col-sm-6">
-                                <address>
-                                    <h5>Chi nhánh #2</h5>
-                                    <p>5/14 Hữu Nghị, Bình Thọ, Quận Thủ Đức 
-                                    <p>Phone:0164 7931 390 <br>
-                                    Email Address:chuongnhh@gmail.com</p>
-                                </address>
-
-                                <address>
-                                    <h5>Chi nhánh #3</h5>
-                                    <p>5/14 Hữu Nghị, Bình Thọ, Quận Thủ Đức 
-                                    <p>Phone:0164 7931 390 <br>
-                                    Email Address:chuongnhh@gmail.com</p>
-                                </address>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>  <!--/gmap_area -->
-
-    <section id="contact-page">
+    
+    <section id="content" class="shortcode-item">
         <div class="container wow fadeInDown">
-            <div class="center">        
-                <h2>GỬI TIN NHẮN CHO CHÚNG TÔI</h2>
-            </div> 
-            <div class="row contact-wrap"> 
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
-                    <div class="col-sm-5 col-sm-offset-1">
-                        <div class="form-group">
-                            <label>Họ và tên *</label>
-                            <input type="text" name="name" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Địa chỉ email *</label>
-                            <input type="email" name="email" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Số điện thoại</label>
-                            <input type="number" class="form-control">
-                        </div>                 
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="form-group">
-                            <label>Nội dung tin nhắn *</label>
-                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
-                        </div>                        
-                        <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Gửi tin nhắn</button>
-                        </div>
-                    </div>
-                </form> 
-            </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#contact-page-->
+         <legend>Thông tin:</legend>
+                             <form  class="form-inline" action="" method="POST" role="form">
+                               <div>
+                                    <label class="fieldinput col-sm-2 control-label">Họ và tên
+                                    <sup style="color: rgb(255, 0, 0);">*</sup></label>
+                                    <div class="col-sm-10">
+                                    <input type="text"  class="form-control" size="80" id="" data-trigger="manual" value=""
+                                     placeholder="Họ và tên" required="" autofocus="" data-content="Bạn phải nhập ít nhất 2 ký tự.">
+                                    </div>
+                                </div><br>
+                                <div>
+                                    <label class="fieldinput col-sm-2 control-label">Địa chỉ
+                                    <sup style="color: rgb(255, 0, 0);">*</sup></label>
+                                    <div class="col-sm-10">
+                                    <input type="text"  class="form-control" id="" size="80"  value="" placeholder="Địa chỉ" required="" autofocus="">
+                                    </div>
+                                </div><br>
+                                 <div>
+                                    <label class="fieldinput col-sm-2 control-label">Email
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                    <input type="email"  class="form-control required email" size="80" data-trigger="manual" placeholder="Địa chỉ email" required=""  data-content="Bạn cần phải nhập vào trường này là một email">
+                                    </div>
+                                </div><br>
+                                <div>
+                                    <label class="fieldinput col-sm-2 control-label">Số điện thoại
+                                    <sup style="color: rgb(255, 0, 0);">*</sup>
+                                    </label>
+                                    <div class="col-sm-10">
+                                     <input type="text" name="sdt" class="form-control required phone" size="80"  id="" value="" placeholder="Số điện thoại" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 8 kí tự số." required="">
+                                    </div>
+                                </div><br>
+                                 <div>
+                                    <label class="fieldinput col-sm-2 control-label">Khóa học
+                                    <sup style="color: rgb(255, 0, 0);">*</sup></label>
+                                    <div class="col-sm-10">
+                                    <input type="text"  class="form-control" id="" value="" size="80" placeholder="Khóa học" required="" autofocus="">
+                                    </div>
+                                </div><br> 
+                                <button class="btn btn-primary col-sm-offset-2" type="submit">Đăng ký</button>
+                            </form> <br><br>
+         </div>
+    </section><!--/#content--> 
 
     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -204,64 +160,97 @@
                     <div class="widget">
                         <h3>Company</h3>
                         <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">About us</a>
+                            </li>
+                            <li><a href="#">We are hiring</a>
+                            </li>
+                            <li><a href="#">Meet the team</a>
+                            </li>
+                            <li><a href="#">Copyright</a>
+                            </li>
+                            <li><a href="#">Terms of use</a>
+                            </li>
+                            <li><a href="#">Privacy policy</a>
+                            </li>
+                            <li><a href="#">Contact us</a>
+                            </li>
                         </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                    </div>
+                </div>
+                <!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
                         <h3>Support</h3>
                         <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
+                            <li><a href="#">Faq</a>
+                            </li>
+                            <li><a href="#">Blog</a>
+                            </li>
+                            <li><a href="#">Forum</a>
+                            </li>
+                            <li><a href="#">Documentation</a>
+                            </li>
+                            <li><a href="#">Refund policy</a>
+                            </li>
+                            <li><a href="#">Ticket system</a>
+                            </li>
+                            <li><a href="#">Billing system</a>
+                            </li>
                         </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                    </div>
+                </div>
+                <!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
                         <h3>Developers</h3>
                         <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
+                            <li><a href="#">Web Development</a>
+                            </li>
+                            <li><a href="#">SEO Marketing</a>
+                            </li>
+                            <li><a href="#">Theme</a>
+                            </li>
+                            <li><a href="#">Development</a>
+                            </li>
+                            <li><a href="#">Email Marketing</a>
+                            </li>
+                            <li><a href="#">Plugin Development</a>
+                            </li>
+                            <li><a href="#">Article Writing</a>
+                            </li>
                         </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                    </div>
+                </div>
+                <!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
                         <h3>Our Partners</h3>
                         <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
+                            <li><a href="#">Adipisicing Elit</a>
+                            </li>
+                            <li><a href="#">Eiusmod</a>
+                            </li>
+                            <li><a href="#">Tempor</a>
+                            </li>
+                            <li><a href="#">Veniam</a>
+                            </li>
+                            <li><a href="#">Exercitation</a>
+                            </li>
+                            <li><a href="#">Ullamco</a>
+                            </li>
+                            <li><a href="#">Laboris</a>
+                            </li>
                         </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                    </div>
+                </div>
+                <!--/.col-md-3-->
             </div>
         </div>
-    </section><!--/#bottom-->
+    </section>
+    <!--/#bottom-->
 
     <footer id="footer" class="midnight-blue">
         <div class="container">
@@ -283,14 +272,17 @@
                 </div>
             </div>
         </div>
-    </footer><!--/#footer-->
- <script src="<c:url value="../assets/js/jquery.js"/>"></script>
+    </footer>
+    <!--/#footer-->
+
+        <script src="<c:url value="assets/js/jquery.js"/>"></script>
+   <script src="<c:url value="../assets/js/jquery.js"/>"></script>
     <script src="<c:url value="../assets/js/bootstrap.min.js"/>"></script>
     <script src="<c:url value="../assets/js/jquery.prettyPhoto.js"/>"></script>
     <script src="<c:url value="../assets/js/jquery.isotope.min.js"/>"></script>
     <script src="<c:url value="../assets/js/main.js"/>"></script>
     <script src="<c:url value="../assets/js/wow.min.js"/>"></script>
-    <script src="<c:url value="../assets/js/validation.js"/>"></script>
+<script src="<c:url value="../assets/js/validation.js"/>"></script>
     <script src="<c:url value="../assets/js/custom.js"/>"></script>
     <!--BACK TO TOP-->
     <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Lên đầu trang" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
