@@ -70,8 +70,8 @@
             <!--/.container-->
         </div>
         <!--/.top-bar-->
-
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" role="banner">
+<!--  class="navbar navbar-inverse" data-spy="affix" data-offset-top="48" -->
+        <nav role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
